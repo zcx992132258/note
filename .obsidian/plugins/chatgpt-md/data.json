@@ -1,0 +1,11 @@
+{
+  "apiKey": "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",
+  "defaultChatFrontmatter": "---\nsystem_commands: ['I am a helpful assistant.']\ntemperature: 0\ntop_p: 1\nmax_tokens: 1000\npresence_penalty: 1\nfrequency_penalty: 1\nstream: true\nstop: null\nn: 1\nmodel: gpt-3.5-turbo\n---",
+  "stream": true,
+  "streamSpeed": 28,
+  "chatTemplateFolder": "ChatGPT_MD/templates",
+  "chatFolder": "ChatGPT_MD/chats",
+  "generateAtCursor": false,
+  "autoInferTitle": false,
+  "dateFormat": "YYYYMMDDhhmmss"
+}
