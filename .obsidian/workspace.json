@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "30f5f9672053e66e",
+        "id": "1a18be7f49640662",
         "type": "tabs",
         "children": [
           {
-            "id": "2b29cd555c4523bc",
+            "id": "1d220d6bcf105afa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -129,8 +129,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,8 +137,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -148,11 +145,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2b29cd555c4523bc",
+  "active": "1d220d6bcf105afa",
   "lastOpenFiles": [
+    "Axios/Axios源码.md",
     "Ava - Getting Started.md",
     "Axios",
-    "Axios/Pasted image 20230318162549.png",
-    "Axios/Axios源码.md"
+    "Axios/Pasted image 20230318162549.png"
   ]
 }
