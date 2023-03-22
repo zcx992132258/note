@@ -1,61 +1,45 @@
-#Axios 架构图
+# axios 
+
 ![[Pasted image 20230318162549.png]]
 
 
+  ## 构造方法 createInstance
 
-<details>
-<summary><strong>目录</strong></summary>
-
-- [构造方法 createInstance](#createInstance)
-  * [原型绑定方法 bind](#supports-keys-with-dots)
-```
-``
-
-</details>
-##<a id="createInstance">构造方法 createInstance</a> 
 ```javascript
 function createInstance(defaultConfig) {
+  // 实例化一个 axios 对象
+  const context = new Axios(defaultConfig);
 
-// 实例化一个 axios 对象
-  const context = new Axios(defaultConfig);
+  // 返回一个函数  Axios 原型方法 request this 指向 Axios 实例对象
+  const instance = bind(Axios.prototype.request, context);
 
-// 返回一个函数  Axios 原型方法 request this 指向 Axios 实例对象
-  const instance = bind(Axios.prototype.request, context);
+  // instance 继承 Axios 所有原型方法 this 指向 context 实例对象
+  utils.extend(instance, Axios.prototype, context, { allOwnKeys: true });
 
-// instance 继承 Axios 所有原型方法 this 指向 context 实例对象
-  utils.extend(instance, Axios.prototype, context, { allOwnKeys: true });
+  // instance 继承 axios 实例 context 所有属性方法
+  utils.extend(instance, context, null, { allOwnKeys: true });
 
-// instance 继承 axios 实例 context 所有属性方法
-  utils.extend(instance, context, null, { allOwnKeys: true });
+  // 建立创建方法 接受配置传参并且和默认配置进行合并
+  instance.create = function create(instanceConfig) {
+    return createInstance(mergeConfig(defaultConfig, instanceConfig));
+  };
 
-// 建立创建方法 接受配置传参并且和默认配置进行合并
-  instance.create = function create(instanceConfig) {
-
-return createInstance(mergeConfig(defaultConfig, instanceConfig));
-
-};
-
-return instance;
-
+  return instance;
 }
+```
 
-````
-
-###<a id='bind'>原型绑定方法 bind</a>
+### 原型绑定方法 bind
 
 ```javascript
 // 手动实现bind
 function bind(fn, thisArg) {
-
-  return function wrap() {
-
-    return fn.apply(thisArg, arguments);
-
-  };
+  return function wrap() {
+    return fn.apply(thisArg, arguments);
+  };
 }
-````
+```
 
-###extend
+### extend
 
 ```javascript
 /*
@@ -127,13 +111,3 @@ function forEach(obj, fn, { allOwnKeys = false } = {}) {
   }
 }
 ```
-
-
-
-
-
-
-
-
-
-
