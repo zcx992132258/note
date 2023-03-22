@@ -8,7 +8,8 @@
 
 - [构造方法 createInstance](#createInstance)
   * [原型绑定方法 bind](#supports-keys-with-dots)
-
+```
+``
 
 </details>
 ##<a id="createInstance">构造方法 createInstance</a> 
