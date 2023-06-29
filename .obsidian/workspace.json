@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a18be7f49640662",
+        "id": "b075b8f4de6f2c84",
         "type": "tabs",
         "children": [
           {
-            "id": "1d220d6bcf105afa",
+            "id": "88c5ecb9e289d2f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Axios/Axios源码.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Axios/Axios源码.md",
+                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Axios/Axios源码.md",
+                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Axios/Axios源码.md"
+                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md"
               }
             }
           }
@@ -143,12 +141,19 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4e13dfd73484ac41",
+  "active": "88c5ecb9e289d2f1",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md",
+    "Excalidraw/Drawing 2023-06-29 10.02.07.excalidraw.md",
+    "Excalidraw/Drawing 2023-06-29 10.02.09.excalidraw.md",
+    "Pasted Image 20230629095911_915.png",
     "Axios/Axios源码.md",
+    "Excalidraw",
+    "未命名",
     "Ava - Getting Started.md",
     "Axios",
     "Axios/Pasted image 20230318162549.png"
