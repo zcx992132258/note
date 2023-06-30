@@ -13,11 +13,22 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md"
+                "file": "Excalidraw/流程图.md"
+              }
+            }
+          },
+          {
+            "id": "f900298ff090be42",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/流程图.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,6 +73,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "dcdec0a3e61ea998",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -83,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md",
+                "file": "Excalidraw/流程图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md",
+                "file": "Excalidraw/流程图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md"
+                "file": "Excalidraw/流程图.md"
               }
             }
           }
@@ -145,9 +164,9 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "88c5ecb9e289d2f1",
+  "active": "52f4cccfb4295f64",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-06-29 09.58.26.excalidraw.md",
+    "Excalidraw/流程图.md",
     "Excalidraw/Drawing 2023-06-29 10.02.07.excalidraw.md",
     "Excalidraw/Drawing 2023-06-29 10.02.09.excalidraw.md",
     "Pasted Image 20230629095911_915.png",

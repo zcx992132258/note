@@ -132,7 +132,7 @@
             "groupIds": [],
             "frameId": null,
             "roundness": null,
-            "boundElements": null,
+            "boundElements": [],
             "updated": 1688005281337,
             "link": null,
             "locked": false,
