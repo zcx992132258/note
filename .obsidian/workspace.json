@@ -16,19 +16,8 @@
                 "file": "Excalidraw/流程图.md"
               }
             }
-          },
-          {
-            "id": "f900298ff090be42",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/流程图.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +153,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "f900298ff090be42",
+  "active": "88c5ecb9e289d2f1",
   "lastOpenFiles": [
     "Excalidraw/流程图.md",
     "Excalidraw/Drawing 2023-06-29 10.02.07.excalidraw.md",
