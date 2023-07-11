@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#axios",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
