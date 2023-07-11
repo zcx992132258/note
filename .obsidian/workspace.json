@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b075b8f4de6f2c84",
+        "id": "1a18be7f49640662",
         "type": "tabs",
         "children": [
           {
-            "id": "88c5ecb9e289d2f1",
+            "id": "1d220d6bcf105afa",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -16,8 +16,19 @@
                 "file": "Excalidraw/流程图.md"
               }
             }
+          },
+          {
+            "id": "328333d59b47018a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-07-11 22.31.16.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,14 +73,6 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "dcdec0a3e61ea998",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
@@ -91,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/流程图.md",
+                "file": "Excalidraw/Drawing 2023-07-11 22.31.16.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/流程图.md",
+                "file": "Excalidraw/Drawing 2023-07-11 22.31.16.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/流程图.md"
+                "file": "Excalidraw/Drawing 2023-07-11 22.31.16.excalidraw.md"
               }
             }
           }
@@ -153,17 +156,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "88c5ecb9e289d2f1",
+  "active": "328333d59b47018a",
   "lastOpenFiles": [
+    "Excalidraw/未命名.md",
+    "Excalidraw/Drawing 2023-07-11 22.31.16.excalidraw.md",
     "Excalidraw/流程图.md",
-    "Excalidraw/Drawing 2023-06-29 10.02.07.excalidraw.md",
-    "Excalidraw/Drawing 2023-06-29 10.02.09.excalidraw.md",
-    "Pasted Image 20230629095911_915.png",
+    "Axios/Pasted image 20230318162549.png",
     "Axios/Axios源码.md",
     "Excalidraw",
-    "未命名",
     "Ava - Getting Started.md",
-    "Axios",
-    "Axios/Pasted image 20230318162549.png"
+    "Axios"
   ]
 }
